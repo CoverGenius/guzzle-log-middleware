@@ -1,5 +1,5 @@
 {
-    "name": "gmponos/guzzle_logger",
+    "name": "covergenius/guzzle_logger",
     "description": "A Guzzle middleware to log request and responses automatically",
     "keywords": [
         "psr3",
@@ -33,6 +33,7 @@
         "psr/log": "^1.1 || ^2.0 || ^3.0"
     },
     "require-dev": {
+        "colinodell/psr-testlogger": "^1.3",
         "phpstan/phpstan": "~0.12.32",
         "phpstan/phpstan-phpunit": "^0.12.11",
         "phpstan/phpstan-strict-rules": "^0.12.2",
