@@ -1,10 +1,5 @@
 # Guzzle Log Middleware
 
-[![codecov](https://codecov.io/gh/gmponos/guzzle-log-middleware/branch/master/graph/badge.svg)](https://codecov.io/gh/gmponos/guzzle-log-middleware)
-[![Total Downloads](https://img.shields.io/packagist/dt/gmponos/guzzle_logger.svg)](https://packagist.org/packages/gmponos/guzzle_logger)
-[![Build Status](https://travis-ci.org/gmponos/guzzle-log-middleware.svg?branch=master)](https://travis-ci.org/gmponos/guzzle-log-middleware)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/gmponos/monolog-slack/blob/master/LICENSE.md)
-
 This is a middleware for [guzzle](https://github.com/guzzle/guzzle) that will help you automatically log every request 
 and response using a PSR-3 logger.
 
@@ -15,7 +10,7 @@ The middleware is functional with version 6 of Guzzle.
 Via Composer
 
 ``` bash
-$ composer require gmponos/guzzle_logger
+$ composer require covergenius/guzzle_logger
 ```
 
 ## Usage
@@ -176,11 +171,6 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 ``` bash
 $ composer test
 ```
-
-## Credits
-
-- [George Mponos](gmponos@gmail.com)
-- [Contributors](../../contributors)
 
 ## License
 
