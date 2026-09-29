@@ -16,7 +16,7 @@ use Throwable;
  */
 final class StringHandler extends AbstractHandler
 {
-    public function __construct(LogLevelStrategyInterface $logLevelStrategy = null)
+    public function __construct(?LogLevelStrategyInterface $logLevelStrategy = null)
     {
         $this->logLevelStrategy = $logLevelStrategy === null ? $this->getDefaultStrategy() : $logLevelStrategy;
     }

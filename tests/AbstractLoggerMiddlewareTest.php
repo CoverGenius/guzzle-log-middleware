@@ -65,7 +65,7 @@ abstract class AbstractLoggerMiddlewareTest extends TestCase
         array $headers = [],
         string $body = '',
         string $version = '1.1',
-        string $reason = null
+        ?string $reason = null
     ): self {
         $this->mockHandler->append(new Response($code, $headers, $body, $version, $reason));
         return $this;
